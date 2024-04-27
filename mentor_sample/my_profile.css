@@ -63,9 +63,9 @@ hr {
 }  
 
 .profile_box.content_box {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start; */
 }
 
 .content_box {
@@ -77,7 +77,7 @@ hr {
     /* border: 1px solid #d8a265; */
     /* display: inline-block; */
     width: 100%;
-    flex:1;
+    /* flex:1; */
     display: block;
     align-items: center;
 }
@@ -92,9 +92,9 @@ hr {
 .content {
     width: 100%;
      /* 내용을 가운데 정렬할 수 있도록 */
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .content p {
@@ -139,7 +139,6 @@ hr {
 .my_movie_poster{
     width: 95%;
     display: block; 
-    /* vertical-align: top; */
     border: 5px solid #9f55f5;
     margin: 2px;
 }
