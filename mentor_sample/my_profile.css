@@ -52,17 +52,14 @@ hr {
     color: #333;
     text-align: left;
     font-weight: bold;
-    font-family: Arial, sans-serif;
-    text-transform: uppercase;
     letter-spacing: 2px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 그림자 추가 */
     padding: 10px;
     margin: 20px;
-    position: relative; /* 상대적 위치 지정 */
     margin-bottom: 20px;
+    padding-bottom: 10px;
     text-decoration: underline;
     text-decoration-skip-ink: auto;
-    padding-bottom: 10px;
 }  
 
 .profile_box.content_box {
