@@ -1,5 +1,5 @@
 *{
-    background-color: #ffe0b4e8;
+    background-color: #e6e6e6cb;
     /* border: 1px solid; */
 }
 
@@ -113,7 +113,7 @@ hr {
 }
 
 #karina{
-    border: 4px solid #7533f0; /* 테두리 스타일 및 색상 설정 */
+    border: 4px solid #4e4e4e; /* 테두리 스타일 및 색상 설정 */
     box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.6); 
 }
 
@@ -140,7 +140,7 @@ hr {
 .my_movie_poster{
     width: 95%;
     display: block; 
-    border: 5px solid #9f55f5;
+    border: 5px solid #cecece;
     margin: 2px;
 }
 
