@@ -1,0 +1,20 @@
+.class_1{
+	color: blue;
+	text-decoration: underline;
+}
+
+.class_2{
+	color: green;
+	font-size: 50px;
+}
+
+.div_class{
+	font-size: 20px;
+	border: 3px solid black;
+	text-align: center;
+	margin: 20px;
+	width: 400px;
+	height: 100px;
+	background-color: #F5A9F2;
+	border-radius: 10%;
+}
