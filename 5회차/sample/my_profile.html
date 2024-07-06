@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 제목 선정하기 -->
+    <title>나를 소개할거야</title>
+    <!-- css 파일 이름 적어주기 -->
+    <link rel="stylesheet" href="./my_profile.css" />
+    <!-- 이미지 URL 복사 붙여넣기 -->
+    <link rel="shortcut icon" type="image/x-icon" href="https://as1.ftcdn.net/v2/jpg/03/53/84/64/1000_F_353846449_p78QeKu5yHVfp9wWLghJwmJZUaCDeBIK.jpg">
+	<script src="my_profile.js"></script>
+</head>
+<body>
+    <div class="profile_box">
+        <!-- 프로필 사진 파일명 -->
+        <img id="my_picture" src="./img/my_character.png">
+        <!-- 내 이름 -->
+        <h1 class="my_name">Minku Koo</h1>
+
+        <table class="profile_table">
+            <tr>
+                <th class="label">생일</th>
+                <td class="data">05월 13일</td>
+            </tr>
+            <tr>
+                <th class="label">학교</th>
+                <td class="data">삼성중학교</td>
+            </tr>
+            <tr>
+                <th class="label">취미</th>
+                <td class="data">영화감상, 모바일 게임</td>
+            </tr>
+            <tr>
+                <th class="label">특기</th>
+                <td class="data">축구</td>
+            </tr>
+            <tr>
+                <th class="label">목표</th>
+                <td class="data">개발자</td>
+            </tr>
+            <tr>
+                <th class="label">싫어하는 것</th>
+                <td class="data">오이</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <hr>
+    <div class = "profile_box">
+        <h2 class="sub_title">인생 타임라인</h2>
+        <div class="content_box">
+            <div class="left_box" style="border-right: 2px solid black;">
+                <div class="content">
+                    <p class="timeline_age">17살</p>
+                    <p class="timeline_goal">삼성대 컴퓨터공학과 진학</p>
+                    <p class="timeline_age">22살</p>
+                    <p class="timeline_goal">미국 교환학생</p>
+                    <p class="timeline_age">23살</p>
+                    <p class="timeline_goal">삼성전자 입사!</p>
+                </div>
+            </div>
+            <div class="right_box" style="border-left: 2px solid black;">
+                <div class="content">
+                    <p class="timeline_goal">삼성고등학교 진학</p>
+                    <p class="timeline_age">20살</p>
+                    <p class="timeline_goal">유럽 한 달 배낭여행</p>
+                    <p class="timeline_age">23살</p>
+                    <p class="timeline_goal">국내 해킹대회 1등</p>
+                    <p class="timeline_age">25살</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <hr>
+    <div class = "profile_box">
+        <h2 class="sub_title" style="text-align: right;">장래 희망</h2>
+            <div class="content_box">
+                <div class="left_box">
+                    <img class="my_profile_image" src="./img/my_goal_image.jpg">
+                </div>
+                <div class="right_box">
+                    <ul class="my_goal_content">
+                        <li style="list-style-type: none;">
+                            <h3 class="content_header" style="text-decoration: underline;">
+                                "나만큼 똑똑한 AI를 만드는 개발자"
+                            </h3>
+                        </li>
+                        <li>삼성전자 입사하기</li>
+                        <li>인간과 같이 실수도 하는 말동무 AI 개발하기</li>
+                        <li>얼굴 표정이 사람처럼 변하는 AI 아바타 개발하기</li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+
+
+    
+    <hr>
+    <div class = "profile_box">
+        <h2 class="sub_title">최애 아이돌</h2>
+            <div class="content_box">
+                <div class="left_box">
+                    <ul class="my_idol_content">
+                        <li style="list-style-type: none;">
+                            <h3 class="content_header" >
+                                <i style="font-weight: bold;text-decoration: underline;">aespa</i> 
+                                카리나
+                            </h3>
+                        </li>
+                        <li>2000년 04월 11일</li>
+                        <li>168cm B형</li>
+                        <li>SM엔터테인먼트</li>
+                        <li>ENFP</li>
+                        <li>2020년 데뷔!</li>
+                        <li style="font-weight:bold;color:blue;font-style: italic;">❤️ NEXT LEVEL 💙</li>
+                    </ul>
+                </div>
+                <div class="right_box">
+                    <img class="my_profile_image" id="karina" src="./img/karina.jpg">
+                </div>
+            </div>
+    </div>
+
+    
+    <hr>
+    <div class = "profile_box">
+        <h2 class="sub_title" id="title_as_btn" 
+		style="text-align: right; cursor: pointer;">
+		인생 영화
+		</h2>
+		
+		<div class="box_hide" style="display: none;">
+			<div class="content_box">
+				<div class="left_box">
+					<img class="my_movie_poster" src="./img/my_movie_1.jpg">
+				</div>
+				<div class="right_box">
+					<img class="my_movie_poster" src="./img/my_movie_2.jpg">
+				</div>
+			</div>
+			<div class="movie_comment">
+				<h3 style="text-align: left; text-decoration: underline; font-style: italic;">"Beautiful Mind"</h3>
+				<p>
+					<ul style="line-height: 1.8;">
+						<li>명작 영화에 눈을 뜨게 해준 첫 영화이자, 최고의 반전 영화</li>
+						<li>우리의 삶에 대한 깊은 메시지를 담고 있다.</li>
+					</ul>
+				</p>
+			</div>
+		</div>
+    </div>
+
+    <hr>
+    <div class = "profile_box" style="padding-bottom: 50px;">
+        <h2 class="sub_title">Bucket List</h2>
+        <div class="content_box">
+            <div class="left_box">
+                <ul class="bucketlist_ul">
+                    <li>에펠탑 배경으로 스냅사진 찍기</li>
+                    <li>수능 수학 1등급 받기</li>
+                    <li>남극에서 펭귄보기</li>
+                    <li>기타 배워보기</li>
+                    <li>자전거 국토대장정</li>
+                </ul>
+            </div>
+            <div class="right_box">
+                <ul class="bucketlist_ul">
+                    <li>미국으로 교환학생 가기</li>
+                    <li>호주 워킹 홀리데이 가기</li>
+                    <li>나만의 노래 작곡해보기</li>
+                    <li>부모님과 유럽여행 가기</li>
+                    <li>유튜브 구독자 1000명 달성해보기</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    
+</body>
+</html>
