@@ -5,8 +5,11 @@
 
 .my_name{
     margin: 40px;
-    font-size: 40px;
-	/* color: blue; */
+    font-size: 60px;
+	color: #7401DF;
+	/* text-align: right; */
+	/* border: 1px solid red; */
+	font-style: italic;
 }
 
 .profile_box{
